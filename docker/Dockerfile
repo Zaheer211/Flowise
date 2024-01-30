@@ -16,6 +16,9 @@ ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
 # You can install a specific version like: flowise@1.0.0
 RUN npm install -g flowise
 
+# To allow the use of bash
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+
 WORKDIR /data
 
 CMD "flowise start"
