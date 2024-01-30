@@ -2,7 +2,7 @@
     "name": "flowise-ui",
     "version": "1.4.8",
     "license": "SEE LICENSE IN LICENSE.md",
-    "homepage": "/app/packages/ui/build",
+    "homepage": "https://flowiseai.com",
     "author": {
         "name": "HenryHeng",
         "email": "henryheng@flowiseai.com"
